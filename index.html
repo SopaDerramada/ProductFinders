@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductFinder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ProductFinder</h1>
+        <input type="text" id="search" placeholder="Pesquisar produtos...">
+        <select id="priceFilter">
+            <option value="all">Todos os preços</option>
+            <option value="0-50">Até R$50</option>
+            <option value="50-100">R$50 - R$100</option>
+            <option value="100-200">R$100 - R$200</option>
+            <option value="200">Acima de R$200</option>
+        </select>
+    </header>
+
+    <main id="productsContainer">
+        <!-- Produtos vão aparecer aqui -->
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
